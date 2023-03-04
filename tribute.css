@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: wheat ;
+    min-height: 100vh;
+    border: 20px solid #1d1e4c
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto; 
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.top_section h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #1d1e4c;
+     
+}
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+}
+ .about_section h2{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+ }
+ .about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+ }
+
